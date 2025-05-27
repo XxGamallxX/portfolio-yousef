@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-white">
-            Alex<span className="text-blue-400">Chen</span>
+            Youssef<span className="text-blue-400">Nabil</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -25,13 +25,13 @@ const Header = () => {
 
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://github.com" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/youssefnabil2030" className="text-gray-400 hover:text-white transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.linkedin.com/in/youssef-nabil-711558204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:alex@example.com" className="text-gray-400 hover:text-white transition-colors">
+            <a href="ynjob12@gmail.com" className="text-gray-400 hover:text-white transition-colors">
               <Mail size={20} />
             </a>
           </div>
